@@ -1,0 +1,10 @@
+---
+applications:
+- name: GumballMachineVer2
+  memory: 512M
+  host: GumballMachineVer2Monil
+  domain: cfapps.io
+  env: {
+    }
+  services: {
+    }

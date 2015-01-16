@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <form name="gumballform" method="post" action="">
+    	<input type="hidden" name="state" id="state" value=<%= state %> />
+    	<input type="hidden" name="model" id="model" value=<%= model %> />
+    	<input type="hidden" name="serial" id="serial" value=<%= serial %> />
+    	<input type="hidden" name="count" id="count" value=<%= count %> />
+    	<input type="hidden" name="hash" id="hash" value=<%= hash %> />
+    	<p>State: <%= state %></p>
+    	<p>model: <%= model %></p>
+    	<p>serial: <%= serial %></p>
+    	<input type="submit" name="event" id="btnInsertQtr" value="Insert QTR"/>
+    </form>
+  </body>
+</html>
